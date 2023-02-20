@@ -1,0 +1,158 @@
+body {
+  background-color: #333;
+  /* background-color: #1F2D3D; */
+  color: #E5E5E5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #E5E5E5;
+  font-weight: bold;
+  line-height: 1.5;
+  /* margin-top: 2rem; */
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #E5E5E5;
+  font-size: 16px;
+  line-height: 1.5;
+  /* margin-bottom: 1.5rem; */
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  position: relative;
+  margin: 40px 0;
+}
+
+.contactinfo {
+  color: #E5E5E5;
+  font-size: 16px;
+  line-height: 0.7;
+  /* margin-bottom: 1.5rem; */
+}
+
+a {
+  color: #8F53FF;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.job-experience {
+  margin-bottom: 2rem;
+}
+
+.job-experience h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.job-experience p {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.job-experience ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.job-experience li {
+  margin-bottom: 1rem;
+}
+
+.education {
+  margin-bottom: 2rem;
+}
+
+.education h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.education p {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  margin-bottom: 2rem;
+}
+
+.skills h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.skills li {
+  margin-bottom: 1rem;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  /* margin-bottom: 2rem; */
+}
+
+li {
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 0.5rem;
+
+
+}
+
+li::before {
+  content: "〉";
+  margin-right: 0.5rem;
+  color: #828282;
+
+  margin-left: 10px;
+}
+
+ul ul {
+  margin-left: 2rem;
+
+  /* list-style: none; 
+  padding: 0;
+  margin-left: -40px;  */
+}
+
+ul ul li::before {
+  content: "";
+  margin-right: 0;
+}
