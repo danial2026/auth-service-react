@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Build the application
-RUN npm run build
+# RUN npm run build
 
 # Set the start command
 CMD ["npm", "start"]
