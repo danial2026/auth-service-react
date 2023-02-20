@@ -9,7 +9,7 @@ You can create an account and try out the authentication features.
 
 ### Medium Post
 I've also written a Medium post about this project, 
-which you can read at https://medium.com/.
+which you can read at https://medium.com/@sadcat/build-your-own-authentication-service-with-spring-boot-cacd22d72851.
 The post goes into more detail about the development process and how to use the app.
 
 ### Getting Started
