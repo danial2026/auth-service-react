@@ -5,3 +5,8 @@ services:
     build: .
     ports:
       - "3090:3000"
+
+networks:
+  default:
+    external:
+      name: servernetwork
